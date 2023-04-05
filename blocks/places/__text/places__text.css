@@ -1,0 +1,3 @@
+.places__text:not() {
+  margin-bottom: 26px;
+}
