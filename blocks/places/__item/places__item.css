@@ -1,10 +1,6 @@
 .places__item {
   display: grid;
-  grid-template-rows: fit-content(76px) 460px;
-  grid-template-columns: 460px minmax(456px, 484px);
+  grid-template-rows: 1fr minmax(460px);
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
-}
-
-.places__item:not(:last-child) {
-  margin-bottom: 80px;
 }
