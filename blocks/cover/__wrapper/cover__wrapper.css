@@ -1,4 +1,7 @@
 .cover__wrapper {
+  background: url(../../images/cover.jpg) no-repeat center/cover;
+  aspect-ratio: 2 / 1;
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;

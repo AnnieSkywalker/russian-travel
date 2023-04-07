@@ -1,5 +1,3 @@
 .cover {
-  background: url(../../images/cover.jpg) no-repeat center/cover;
-  aspect-ratio: 2 / 1;
-  position: relative;
+  padding-top: 92px;
 }
