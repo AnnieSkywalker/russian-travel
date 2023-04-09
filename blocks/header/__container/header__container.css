@@ -7,3 +7,17 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+@media (max-width: 1023px) {
+
+  .header__container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .header__container {
+    padding: 0 16px;
+  }
+}
