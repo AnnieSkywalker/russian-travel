@@ -1,4 +1,4 @@
 .cover {
-  width: 100%;
+  width: calc(100% - (48px * 2));
   padding-top: 92px;
 }
