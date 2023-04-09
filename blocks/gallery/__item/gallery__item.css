@@ -1,3 +1,5 @@
 .gallery__item {
+  width: 284px;
+  height: 213px;
   list-style-type: none;
 }

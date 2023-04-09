@@ -1,7 +1,8 @@
 .header__list {
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  gap: 18px;
 }
