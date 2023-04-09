@@ -1,10 +1,10 @@
 .places__link {
-  color: white;
+  color: #FFF;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #FFF;
 }
 
 .places__link:hover {
