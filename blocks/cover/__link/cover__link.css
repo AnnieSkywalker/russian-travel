@@ -20,8 +20,8 @@
   position: absolute;
   opacity: 0.3;
   aspect-ratio: 8/5;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
