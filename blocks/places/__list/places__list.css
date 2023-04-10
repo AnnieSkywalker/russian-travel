@@ -7,7 +7,6 @@
 }
 
 @media (max-width: 1023px) {
-
   .places__list {
     row-gap: 73px;
   }
