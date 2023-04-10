@@ -8,3 +8,14 @@
 .places__paragraph:not(:last-child) {
   margin-bottom: 26px;
 }
+
+@media (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .places__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}

@@ -1,6 +1,37 @@
 .places__item {
   display: grid;
-  grid-template-rows: 1fr minmax(460px);
+  grid-template-rows: auto-fit minmax(456px, 484px);
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
+}
+
+@media (max-width: 1279px) {
+
+  .places__item {
+    grid-template-rows: auto-fit minmax(352px, 456px);
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .places__item {
+    grid-template-rows: auto-fit minmax(auto, 352px);
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .places__item {
+    grid-template-rows: repeat(4, auto-fit) ;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+
+  .places__item:nth-child() {
+    padding: 0 16px;
+  }
 }

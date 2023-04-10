@@ -2,3 +2,10 @@
   justify-self: start;
   align-self: end;
 }
+
+@media (max-width: 767px) {
+
+  .places__website {
+    padding: 0 16px;
+  }
+}
